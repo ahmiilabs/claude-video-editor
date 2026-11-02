@@ -1,0 +1,21 @@
+# Core (required for any rendering)
+pillow>=10.0
+numpy>=1.24
+
+# Strongly recommended (clip effects, QA motion/caption checks, face tracking, transparent export)
+opencv-python-headless>=4.8
+scipy>=1.10
+psutil>=5.9           # memory-aware batch/render decisions
+
+# Optional AI features (each is independent; nothing here is needed for the offline workflow)
+onnxruntime>=1.17     # person matting (bg-remove / bg-replace / text-behind / smart-spotlight) + neural voice
+kokoro-onnx>=0.4      # natural text-to-speech (also: soundfile)
+soundfile>=0.12
+sherpa-onnx>=1.10     # offline Whisper transcription (sentence-level timestamps)
+# faster-whisper      # optional: TRUE word-level timestamps (downloads a model from Hugging Face on first use)
+# openai-whisper      # optional alternative to faster-whisper
+
+# Tests
+pytest>=7.0
+
+# System tools (not pip): ffmpeg + ffprobe (full build with libass, sidechaincompress, loudnorm), optional espeak-ng

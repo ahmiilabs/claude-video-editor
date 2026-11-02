@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050b16"/><stop offset="0.55" stop-color="#0a2236"/><stop offset="1" stop-color="#06323f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.35" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.45"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="t" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="22" fill="url(#glow)"/>
+  <g stroke="#22d3ee" stroke-opacity="0.12">
+    <path d="M0 80H1200M0 160H1200M0 240H1200M200 0V320M400 0V320M600 0V320M800 0V320M1000 0V320"/>
+  </g>
+  <g fill="none" stroke="#22d3ee" stroke-width="2" opacity="0.8">
+    <polygon points="980,70 1040,50 1100,90 1090,160 1020,190 965,140"/>
+    <polygon points="1010,100 1050,90 1075,125 1050,155 1010,145"/>
+    <circle cx="1030" cy="120" r="110" stroke-opacity="0.25"/>
+  </g>
+  <text x="70" y="135" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="68" font-weight="800" fill="url(#t)">AI Video Editor</text>
+  <text x="72" y="190" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="27" fill="#a5f3fc">Reels, Shorts &amp; clip effects - made entirely with code</text>
+  <rect x="72" y="224" width="210" height="40" rx="20" fill="#22d3ee"/>
+  <text x="177" y="251" text-anchor="middle" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#04121c">by AHMII Labs</text>
+</svg>

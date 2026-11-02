@@ -1,0 +1,113 @@
+{
+  "title": "Train mein chai itni mehngi kyun",
+  "style": "kinetic",
+  "accent": "#FF6B35",
+  "aspect": "9:16",
+  "voice": {
+    "mode": "auto",
+    "lang": "hi",
+    "voice": "hf_alpha",
+    "speed": 1.0
+  },
+  "captions": {
+    "enabled": true,
+    "style": "karaoke",
+    "timing": "auto",
+    "srt": true
+  },
+  "transitions": {
+    "preset": "dynamic",
+    "duration": 0.45
+  },
+  "audio": {
+    "music": "synth:warm",
+    "music_volume": 0.16,
+    "duck": true,
+    "sfx_on_transitions": "whoosh",
+    "sfx_volume": 0.4,
+    "fade_out": 1.2
+  },
+  "progress_bar": {
+    "enabled": true,
+    "position": "top",
+    "color": "#FFD740"
+  },
+  "scenes": [
+    {
+      "text": "Train mein chai itni mehngi kyun?",
+      "narration": "Train mein chai itni mehngi kyun?",
+      "voice_text": "ट्रेन में चाय इतनी महंगी क्यों होती है?",
+      "keywords": [
+        "chai",
+        "mehngi"
+      ]
+    },
+    {
+      "text": "Kyunki aap majboor ho",
+      "narration": "Kyunki aap majboor ho, aur wahan koi doosra option nahi hota.",
+      "voice_text": "क्योंकि आप मजबूर हो, और वहाँ कोई दूसरा ऑप्शन नहीं होता।",
+      "keywords": [
+        "majboor"
+      ],
+      "style": "comic",
+      "sfx": "Boom",
+      "image": "demo/bg1.jpg",
+      "media_scrim": 0.15
+    },
+    {
+      "text": "Rent + Licence + Transport",
+      "narration": "Vendor ko licence fees, stall ka kiraya aur transport ka kharcha dena padta hai.",
+      "voice_text": "वेंडर को लाइसेंस फीस, स्टॉल का किराया और ट्रांसपोर्ट का खर्चा देना पड़ता है।",
+      "style": "blueprint",
+      "label": "Cost breakdown",
+      "boxes": [
+        "Licence fee",
+        "Stall rent",
+        "Transport"
+      ],
+      "overlays": [
+        {
+          "type": "glass",
+          "text": "Teen kharche, ek chai",
+          "position": "bottom",
+          "y": 0.43,
+          "at": 2.5,
+          "duration": 3.2
+        }
+      ]
+    },
+    {
+      "text": "Chai ka asli daam sirf 3 rupay",
+      "narration": "Chai ka asli daam sirf teen rupay hota hai.",
+      "voice_text": "चाय का असली दाम सिर्फ़ तीन रुपये होता है।",
+      "keywords": [
+        "asli",
+        "3"
+      ],
+      "style": "sketch",
+      "transition": {
+        "type": "light_leak",
+        "duration": 0.6
+      }
+    },
+    {
+      "text": "Aap kya sochte ho?",
+      "narration": "Aap kya sochte ho? Comment mein batao.",
+      "voice_text": "आप क्या सोचते हो? कमेंट में बताओ।",
+      "style": "clean",
+      "label": "// your turn",
+      "badge": "?",
+      "image": "demo/bg2.jpg",
+      "media_scrim": 0.25,
+      "overlays": [
+        {
+          "type": "lower_third",
+          "text": "@yourchannel",
+          "subtext": "Follow for more",
+          "at": 0.8,
+          "duration": 2.4
+        }
+      ]
+    }
+  ]
+}

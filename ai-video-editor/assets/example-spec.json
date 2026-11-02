@@ -1,0 +1,68 @@
+{
+  "title": "Train mein chai itni mehngi kyun?",
+  "style": "kinetic",
+  "accent": "#FF6B35",
+  "aspect": "9:16",
+  "voice": {
+    "mode": "auto",
+    "lang": "hi",
+    "voice": "hf_alpha",
+    "speed": 1.0
+  },
+  "captions": {
+    "enabled": true,
+    "style": "highlight",
+    "position": "lower"
+  },
+  "scenes": [
+    {
+      "text": "Train mein chai itni mehngi kyun?",
+      "narration": "Train mein chai itni mehngi kyun?",
+      "keywords": [
+        "chai",
+        "mehngi"
+      ],
+      "voice_text": "ट्रेन में चाय इतनी महंगी क्यों होती है?"
+    },
+    {
+      "text": "Kyunki aap majboor ho",
+      "narration": "Kyunki aap majboor ho, aur wahan koi doosra option nahi hota.",
+      "keywords": [
+        "majboor"
+      ],
+      "style": "comic",
+      "sfx": "Boom",
+      "voice_text": "क्योंकि आप मजबूर हो, और वहाँ कोई दूसरा ऑप्शन नहीं होता।"
+    },
+    {
+      "text": "Rent + Licence + Transport",
+      "narration": "Vendor ko licence fees, stall rent aur transport ka kharcha dena padta hai.",
+      "style": "blueprint",
+      "label": "Cost breakdown",
+      "boxes": [
+        "Licence fee",
+        "Stall rent",
+        "Transport"
+      ],
+      "voice_text": "वेंडर को लाइसेंस फीस, स्टॉल का किराया और ट्रांसपोर्ट का खर्चा देना पड़ता है।"
+    },
+    {
+      "text": "Chai ka asli daam sirf 3 rupay",
+      "narration": "Chai ka asli daam sirf teen rupay hota hai.",
+      "keywords": [
+        "asli",
+        "3"
+      ],
+      "style": "sketch",
+      "voice_text": "चाय का असली दाम सिर्फ़ तीन रुपये होता है।"
+    },
+    {
+      "text": "Follow karo aur batao",
+      "narration": "Aap kya sochte ho? Comment mein batao.",
+      "style": "clean",
+      "label": "// your turn",
+      "badge": "?",
+      "voice_text": "आप क्या सोचते हो? कमेंट में बताओ।"
+    }
+  ]
+}
